@@ -13,27 +13,6 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "df",
-                    "output": "clean_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "MergeArrests.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "df",
-                    "type": "png"
-                }
-            ],
-            "source": "MergeArrests.R",
-            "target": "plot9589.png"
         }
     ],
     "nodes": [
@@ -47,14 +26,8 @@
         },
         {
             "name": "plot9589.png"
-        },
-        {
-            "assigned_to": "urvi15mistry",
-            "desc": "",
-            "name": "MergeArrests.R",
-            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 17:36:10",
+    "updated_at": "2018-10-04 17:41:38",
     "url": "https://github.com/fall2018-wallace/homework6"
 }
