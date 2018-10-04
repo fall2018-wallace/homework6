@@ -17,16 +17,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "df",
                     "output": "clean_data",
                     "type": "r_obj"
@@ -46,13 +36,10 @@
             "task_status": "in progress"
         },
         {
-            "name": "data.csv"
-        },
-        {
             "desc": "",
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:09:20",
+    "updated_at": "2018-10-04 17:09:27",
     "url": "https://github.com/fall2018-wallace/homework6"
 }
