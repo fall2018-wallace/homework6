@@ -23,8 +23,11 @@
             "assigned_to": "urvi15mistry",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "plot9589.png"
         }
     ],
-    "updated_at": "2018-10-04 17:32:11",
+    "updated_at": "2018-10-04 17:32:21",
     "url": "https://github.com/fall2018-wallace/homework6"
 }
