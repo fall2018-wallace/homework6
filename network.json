@@ -13,6 +13,16 @@
             ],
             "source": "scprc_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "plot9589.png"
         }
     ],
     "nodes": [
@@ -28,6 +38,6 @@
             "name": "plot9589.png"
         }
     ],
-    "updated_at": "2018-10-04 17:32:21",
+    "updated_at": "2018-10-04 17:32:49",
     "url": "https://github.com/fall2018-wallace/homework6"
 }
