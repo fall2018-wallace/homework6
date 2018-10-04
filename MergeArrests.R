@@ -1,1 +1,2 @@
 
+df<- hist(df$population)
