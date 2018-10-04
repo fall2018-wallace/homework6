@@ -24,6 +24,16 @@
             ],
             "source": "clean.R",
             "target": "MergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "df",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "plot9589.png"
         }
     ],
     "nodes": [
@@ -43,6 +53,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:33:34",
+    "updated_at": "2018-10-04 17:33:49",
     "url": "https://github.com/fall2018-wallace/homework6"
 }
