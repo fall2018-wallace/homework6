@@ -8,4 +8,5 @@ readStates <- function(states)
     colnames(states) <- c("stateName","population","popOver18","percentOver18")
     return(states)
 }
-cleanCensus <- 
+
+cleanCensus <- readStates(raw_data)
