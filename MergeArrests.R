@@ -1,2 +1,2 @@
 
-hist(df)
+plot1(df)
