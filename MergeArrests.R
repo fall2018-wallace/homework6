@@ -1,2 +1,2 @@
 
-df <- hist(df$0zone)
+df <- hist(df$population)
