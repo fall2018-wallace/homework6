@@ -1,2 +1,2 @@
 
-plot1(df)
+df <- hist(df)
